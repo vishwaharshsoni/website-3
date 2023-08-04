@@ -1,0 +1,131 @@
+.container
+{
+    display: flex;
+    
+}
+p
+{
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin: 0;
+}
+.times
+{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+input
+{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 9px;
+    
+}
+.times
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+}
+.box
+{
+    font-size: 32px;
+    width: 160px;
+    font-weight: 700;
+    margin-right: 22px;
+    
+}
+hr
+{
+    margin-top: 30px;
+}
+body
+{
+    background-color: hsl(0, 0%, 86%);
+}
+.overall
+{
+    background-color: white;
+    padding: 20px 20px ;
+    border-radius: 15px;
+    border-bottom-right-radius: 160px;
+    width: 60%;
+    
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center; 
+}
+.dash
+{
+    color: hsl(259, 100%, 65%);
+}
+button
+{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(259, 100%, 65%);
+    background-color:hsl(0, 0%, 86%);
+    font-size: 16px;
+    border-radius: 8px;
+}
+button:hover
+{
+    background-color:#A084E8;
+    color: white;
+}
+.invalid
+{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(0, 100%, 67%);
+    font-size: 14.8px;
+}
+@media(max-width:890px)
+{
+    .overall
+    {
+        width: 80%;
+    }
+}
+@media(max-width:685px)
+{
+    .box
+    {
+        width: 110px;
+    }
+}
+@media(max-width:500px)
+{
+    .box
+    {
+        width: 82px;
+    }
+    p
+    {
+        font-size: 52px;
+    }
+    .overall
+    {
+        padding: 10px 20px ;
+    }
+}
+@media(max-width:400px)
+{
+
+.box
+{
+    width: 65px;
+}
+ p{
+    font-size: 40px;
+ }
+ .box
+ {
+    font-size: 25px;
+ }
+ .button
+ {
+    font-size: 10px;
+ }
+}
